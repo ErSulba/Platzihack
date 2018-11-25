@@ -22,6 +22,6 @@ const html = document
   .querySelector( '.CourseBanner-title' )
   .textContent + `<small style='color:darkred;font-weight:normal'><br>Duración apróx.: <b>${d}</b><br>Cant. de videos : <b>${t.length}</b></small>`;
 
-document.querySelector( '.CourseBanner span' ).innerHTML = html;
+document.querySelector( '.CourseBanner-right span' ).innerHTML = html;
 
 })();
